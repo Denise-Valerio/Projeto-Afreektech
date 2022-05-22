@@ -1,0 +1,63 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #8768AC;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#form {
+  margin-top: 100px;
+  width: 400px;
+  text-align: center;
+  color: #ffff;
+}
+
+h1 {
+  width: 300px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #ffff;
+  margin-top: 20px;
+}
+
+#form p {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  background: #fff;
+  border: 0.5 solid rgb(160, 0, 184);
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.botao-grupo {
+  width: 300px;
+}
+
+.botao {
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 16px 45px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ffff;
+  width: 300px; 
+  margin-top: 30px;
+}
+
+.status {
+  color: black;
+  font-weight: 900;
+}
+
+#resultado {
+  color: black;
+  font-weight: 900;
+}

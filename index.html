@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="vihtmlewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Minha calculadora</title>
+</head>
+<body>  
+  <section id="conteudo">
+    <div id="form">
+      <h1>Boletim Escolar</h1>
+      <p>Média maior ou igual a 0 e menor que 5: <strong class="status">Reprovação</strong></p>
+      <p>Média maior ou igual a 5 e  menor que 7: <strong class="status">Recuperação</strong></p>
+      <p>Média maior ou igual a 7: <strong class="status">Aprovação</strong></p>
+      <p>Apenas digite notas entre 0 e 10</p>
+      <input id="nota1" placeholder="Digite a nota 1" type="number"/>
+      <input id="nota2" placeholder="Digite a nota 2" type="number"/>
+      <input id="nota3" placeholder="Digite a nota 3" type="number"/>
+      <input id="nota4" placeholder="Digite a nota 4" type="number"/>
+    </div>
+    <div class="botao-grupo">
+      <button onclick="calcular()" class="botao">calcular</button>
+    </div>
+    <h1>Seu resultado é: <strong id="resultado"></strong></h1>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
